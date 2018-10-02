@@ -42,8 +42,6 @@ script:
       -testResults $(pwd)/results.xml
       -batchmode 
       -nographics 
-      -silent-crashes 
       -logFile $(pwd)/unity.log 
       -projectPath $(pwd)/tests/
-      -buildOSXUniversalPlayer "$(pwd)/Build/osx/$project.app" 
       -quit
